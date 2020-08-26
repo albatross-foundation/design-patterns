@@ -32,7 +32,8 @@ Dùng trong việc thực hiện hành vi của đối tượng, sự giao tiế
 - State
 - Strategy
 - Visitor
-![Optional Text](../figure-1.png)
-![Optional Text](../figure-2.png)
-![Optional Text](../figure-3.png)
-![Optional Text](../figure-4.png)
+#
+![Optional Text](../design-patterns/figure-1.png)
+![Optional Text](../design-patterns/figure-2.png)
+![Optional Text](../design-patterns/figure-3.png)
+![Optional Text](../design-patterns/figure-4.png)
