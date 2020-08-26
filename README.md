@@ -33,7 +33,11 @@ Dùng trong việc thực hiện hành vi của đối tượng, sự giao tiế
 - Strategy
 - Visitor
 #
+- The overall structure of the design pattern catalogue
 ![Optional Text](figure-1.png)
+- Classification of Relationships
 ![Optional Text](figure-2.png)
+- Revised Classification
 ![Optional Text](figure-3.png)
+- Arrangement of design pattern in layers
 ![Optional Text](figure-4.png)
