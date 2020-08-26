@@ -33,17 +33,31 @@ Nó định nghĩa 1 interface cao hơn các interface có sẵn để làm cho 
 truy suất đối tượng đó. Đối tượng thay thế gọi là proxy.
 ### Behavioral Patterns
 Dùng trong việc thực hiện hành vi của đối tượng, sự giao tiếp giữa các đối tượng với nhau.
-- Interpreter
-- Template method
-- Chain of responsibility
-- Command
-- Iterator
-- Mediator
-- Memento
-- Observer
-- State
-- Strategy
-- Visitor
+- Interpreter: Hỗ trợ việc định nghĩa biểu diễn cho một văn phạm và bộ thông dịch cho một ngôn ngữ.
+- Template method: Định nghĩa phần khung của một thuật toán, tức là một thuật toán tổng quát
+gọi đến một số phương thức chưa được cài đặt trong lớp cơ sở, việc cài đặt các phương thức được úy nhiệm cho các lớp kế thừa.
+- Chain of responsibility: Khắc phục việc ghép cặp giữa bọ gửi và bộ nhận thông điệp.
+Các đối tượng nhận thông điệp được kết nối thành một chuỗi, và thông điệp được chuyển dọc
+theo chuỗi này đến khi gặp đối tượng xử lý nó. Tránh việc gắn kết cứng giữa việc gửi request
+và phận xử lý request bằng cách cho phép hơn 1 đối tượng có cơ hội xử lý request.
+Liên kết các đối tượng nhận request thành 1 dây chuyền rồi gửi request xuyên qua từng đối tượng xử lý
+đến khi gặp đối tượng xử lý cụ thể cuối cùng.
+- Command: Mỗi yêu cầu thực hiện thao tác nào đó được bao bọc thành một đối tượng.
+Các yêu cầu sẽ được lưu trữ và gửi đi như các đối tượng. Đóng gói request vào trong 1 object,
+nhờ đó có thể thông số hóa chương trình nhận request và thực hiện các thao tác trên request: sắp xếp,
+log, undo...
+- Iterator: Truy suất các phần từ của đối tượng dạng tập hợp tuần tự mà không phụ thuộc vào biểu diễn bên trong của các phần tử.
+- Mediator: Định nghĩa một đối tượng để bảo bọc việc giao tiếp giữa một số đối tượng với nhau.
+- Memento: Hiệu chỉnh và trả lại như cũ trạng thái bên trong của đối tượng mà vẫn không vi phạm việc bao bọc dữ liệu.
+- Observer: Định nghĩa sự phụ thuộc một nhiều giữa các đối tượng sao cho khi một đối tượng thay đổi trạng thái thì
+các đối tượng phụ thuốc cũng thay đổi theo.
+- State: Cho phép một đối tượng thay đổi hành vi khi trạng thái bên trong của nó thay đổi,
+ta có cảm giác class của đối tượng thay đổi.
+- Strategy: Bao bọc một họ các thuật toán bằng các lớp đối tượng để thuật toán có thể thay đổi độc lập
+với chương trình sử dụng thuật toán. Cung cấp một họ các giải thuật cho phép client lựa chọn linh động
+một giải thuật cụ thể khi sử dụng.
+- Visitor: Cho phép định nghĩa thêm các phép toán mới tác động lên các phần tử của một cấu trúc đối tượng
+mà không cần thay đổi các lớp định nghĩa cấu trúc đó.
 #
 - The overall structure of the design pattern catalogue
 ![Optional Text](figure-1.png)
