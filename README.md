@@ -17,13 +17,20 @@ cùng một tiến trình xây dựng có thể tạo được các biểu diễ
 ### Structural Patterns
 Liên quan tới class và các thành phần của object. Nó dùng để thiết lập định nghĩa
 quan hệ giữa các đối tượng.
-- Adapter
-- Bridge
-- Composite
-- Decorator
-- Facade
-- Flyweight
-- Proxy
+- Adapter: Do vấn đề tương thích, thay đổi interface của một đối tượng thành một interface khác
+phù hợp với yêu cầu của người sử dụng.
+- Bridge: Tách ròi ngữ nghĩa của một vấn đề khỏi việc cài đặt, mục đích để cả 2 bộ phận
+(ngữ nghĩa và cài đặt) có thể thay đổi độc lập nhau.
+- Composite: Tổ chức các đối tượng theo cấu trúc phân cấp dạng cây, Tất các các đối tượng
+trong cấu trúc được thao tác theo một cách thuần nhất như nhau. Tạo quan hệ thứ bậc bao gộp
+giữa các đối tượng, client có thể xem đối tượng bao gộp và bị bao gộp như nhau -> khả năng
+tổng quát hóa trong code của client dễ phát triển nâng cấp bảo trì.
+- Decorator: Gán thêm trách nhiệm cho đối tượng vào lúc chạy.
+- Facade: Cung cấp 1 interface thuần nhất cho một loạt các interface trong hệ thống con.
+Nó định nghĩa 1 interface cao hơn các interface có sẵn để làm cho hệ thống con dễ sử dụng hơn.
+- Flyweight: Sử dụng việc chia sẻ để thao tác hiệu quả trên một số đối tượng cỡ nhỏ.
+- Proxy: Cung cấp đối tượng đại diện cho một đối tượng khác để hỗ trợ hoặc kiểm soát quá trình
+truy suất đối tượng đó. Đối tượng thay thế gọi là proxy.
 ### Behavioral Patterns
 Dùng trong việc thực hiện hành vi của đối tượng, sự giao tiếp giữa các đối tượng với nhau.
 - Interpreter
