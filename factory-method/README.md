@@ -14,6 +14,9 @@ với các điều kiện chuyển đổi hành vi của ứng dụng tùy thu�
 - Factory Method pattern đề xuât thay thế việc khởi tạo đối tượng trực tiếp sử dụng từ khóa new bằng cách gọi một hàm factory đặc biệt.
 Đối tượng vẫn sẽ vẫn được tạo ra bằng từ khóa new nhưng nó được gọi trong phạm vị của hàm factory các đối tượng được trả về từ hàm factory 
 được xem như là các "sản phẩm".
-![Optional Text](images/olution.png)
+![Optional Text](images/solution.png)
 - Thoạt nhhìn sự thay đổi này có vẻ vô nghĩa.chúng ta chỉ di chuyển lời gọi constrcutor ở một chỗ khác thôi.Tuy nhiên hay xem xét điều này:
-Bây giờ chúng ta có thể override hàm factory trong các class con và thay đổi class của các sản phẩm được tạo bởi hàm factory.
+Bây giờ chúng ta có thể override hàm factory trong các class con và thay đổi class của các sản phẩm được tạo bởi hàm factory. Tuy nhiên có một
+hạn chế nhỏ: lóp con có thể trả về các loại sản phẩm khác nhau chỉ khi các sản phẩm này có một lớp cơ sở hoặc interface chung. Hàm factory 
+trong lớp cơ sở nên có kiểu trả về giống như interface.
+![Optional Text](images/solution-1.png)
