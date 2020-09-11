@@ -14,3 +14,4 @@ catalogs rất thường xuyên, và bạn không muốn thay đổi code mỗi 
 ### Solution
 - Abstract Factory đề xuất khai báo tưởng minh các interface cho mỗi sản phẩm riêng biệt của họ sản phẩm.
 Sau đó tất cả các biến thể của sản phẩm tuân theo các interface đó.
+- Abstract Factory là môt super factory để tạo ra các factory khác, là một pattern cấp cao hơn so với Factory Method.
