@@ -1,4 +1,4 @@
-package com.design.pattern.example1;
+package com.design.pattern.example1.ingredient;
 
 public class Sauce {
 }
