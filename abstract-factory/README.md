@@ -12,3 +12,5 @@ Khách hàng khá tức giận khi nhận được đồ nội thất không ph�
 - Bạn không muốn thay đổi code khi thêm mới các sản phẩm hoặc họ các sản phẩm vào chương trình. Các nhà cung cấp cập nhật
 catalogs rất thường xuyên, và bạn không muốn thay đổi code mỗi lần điều đó xảy ra.
 ### Solution
+- Abstract Factory đề xuất khai báo tưởng minh các interface cho mỗi sản phẩm riêng biệt của họ sản phẩm.
+Sau đó tất cả các biến thể của sản phẩm tuân theo các interface đó.
