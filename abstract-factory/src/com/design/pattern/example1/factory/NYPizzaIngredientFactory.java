@@ -1,6 +1,7 @@
 package com.design.pattern.example1.factory;
 
 import com.design.pattern.example1.ingredient.*;
+import com.design.pattern.example1.ingredient.common.SlicedPepperoni;
 import com.design.pattern.example1.ingredient.newyork.*;
 
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
