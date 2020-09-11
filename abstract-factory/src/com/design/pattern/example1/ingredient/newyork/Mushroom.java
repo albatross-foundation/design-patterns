@@ -1,4 +1,6 @@
 package com.design.pattern.example1.ingredient.newyork;
 
-public class Mushroom {
+import com.design.pattern.example1.ingredient.Veggies;
+
+public class Mushroom implements Veggies {
 }

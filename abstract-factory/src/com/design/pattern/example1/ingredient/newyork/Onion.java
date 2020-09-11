@@ -1,4 +1,6 @@
 package com.design.pattern.example1.ingredient.newyork;
 
-public class Onion {
+import com.design.pattern.example1.ingredient.Veggies;
+
+public class Onion implements Veggies {
 }
