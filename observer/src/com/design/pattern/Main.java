@@ -1,5 +1,8 @@
 package com.design.pattern;
 
+import com.design.pattern.example1.CurrentConditionDisplay;
+import com.design.pattern.example1.WeatherData;
+
 public class Main {
 
     public static void main(String[] args) {

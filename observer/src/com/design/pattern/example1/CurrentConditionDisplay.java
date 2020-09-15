@@ -1,4 +1,4 @@
-package com.design.pattern;
+package com.design.pattern.example1;
 
 public class CurrentConditionDisplay implements Observer, Display {
 
