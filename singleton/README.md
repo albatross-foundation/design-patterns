@@ -1,0 +1,7 @@
+# Singleton
+
+### Intent
+
+### Problem
+
+### Solution
