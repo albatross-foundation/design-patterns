@@ -1,0 +1,7 @@
+# Adapter
+
+### Intent
+
+### Problem
+
+### Solution
