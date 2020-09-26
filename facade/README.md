@@ -1,4 +1,4 @@
-# Adapter
+# Facade
 
 ### Intent
 
