@@ -2,8 +2,6 @@ package com.design.pattern.example1;
 
 public class DuckTest {
     public static void main(String[] arg){
-        MallardDuck mallardDuck = new MallardDuck();
-
         WildTurkey wildTurkey = new WildTurkey();
 
         Duck turkeyAdapter = new TurkeyAdapter(wildTurkey);
@@ -12,11 +10,7 @@ public class DuckTest {
         wildTurkey.gobble();
         wildTurkey.fly();
 
-        System.out.println("Duck say...");
-        mallardDuck.quack();
-        mallardDuck.fly();
-
-        System.out.println("TurkeyAdapter say");
+        System.out.println("TurkeyAdapter convert turkey to duck say ...");
         turkeyAdapter.quack();
         turkeyAdapter.fly();
     }
