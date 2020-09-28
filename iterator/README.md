@@ -1,4 +1,4 @@
-# Itorator
+# Iterator (Behavioral)
 
 ### Intent
 
